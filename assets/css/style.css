@@ -245,7 +245,6 @@ body {
   padding-block: 14px;
   z-index: 4;
   transition: var(--transition-1);
-  background-color: white;
 }
 
 .header.active {
@@ -263,18 +262,13 @@ body {
   gap: 30px;
 }
 
- /*.logo {
+ .logo {
   color: var(--color);
   font-family: var(--ff-source-sans-pro);
   font-size: var(--fs-3);
-}*/
-#log{
-  height: 70px;
-  width: 80px;
 }
-
 .nav-open-btn {
-  color: var(--st-patricks-blue);
+  color: var(--white);
   font-size: 32px;
   padding: 4px;
 }
@@ -937,7 +931,7 @@ body {
 
   .navbar-item:not(:last-child) { border-bottom: none; }
 
-  .navbar-link { color: var(--space-cadet-1); }
+  .navbar-link { color: var(--white) }
 
 
 
