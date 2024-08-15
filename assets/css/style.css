@@ -160,10 +160,10 @@ body {
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
-
 .about-text {
-    margin: 0;
-}
+        margin: 0;
+        padding: 0;
+    }
 
 
 .container { padding-inline: 15px; }
