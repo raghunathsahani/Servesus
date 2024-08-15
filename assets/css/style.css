@@ -161,6 +161,11 @@ body {
   #REUSED STYLE
 \*-----------------------------------*/
 
+.about-text {
+    margin: 0;
+}
+
+
 .container { padding-inline: 15px; }
 
 .h2,
