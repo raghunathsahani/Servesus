@@ -14,31 +14,29 @@
     }
   </style>
 </head>
-<body class="bg-gray-200 font-sans h-screen flex items-center justify-center" >
-  <div class="w-4/5 h-3/4 bg-white shadow-lg rounded-lg overflow-hidden flex" style="box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);">
+<body class="bg-gray-100 font-sans min-h-screen flex items-center justify-center px-4">
+  <div class="w-full max-w-5xl bg-white shadow-2xl rounded-lg overflow-hidden flex flex-col md:flex-row">
     <!-- Left Section -->
-    <div class="w-1/2 bg-gradient-to-r from-indigo-600 to-purple-500 flex flex-col items-center justify-center p-8 text-white">
-      <div class="w-48 h-48 mb-6 rounded-full bg-gray-200 flex items-center justify-center shadow-md hover-glow transition-all">
+    <div class="w-full md:w-1/2 bg-gradient-to-r from-indigo-600 to-purple-500 flex flex-col items-center justify-center p-8 text-white">
+      <div class="w-40 h-40 mb-6 rounded-full bg-gray-200 flex items-center justify-center shadow-md hover-glow transition-all">
         <img
-          src="./assets/images/Logo T. B2.png"
+          src="/Logo T. B2.png"
           alt="Logo"
-          class="w-48 h-48"
+          class="w-36 h-36 rounded-full"
         />
       </div>
       <h1 class="text-3xl font-bold mb-4">ServeUs Technologies</h1>
-      <h1 class="text-2xl font-bold mb-2">Your Success Is Our Growth</h1>
-      
-      
+      <p class="text-xl text-center mb-4">Your Success Is Our Growth</p>
     </div>
 
     <!-- Right Section -->
-    <div class="w-1/2 p-8 flex flex-col justify-center bg-gray-50">
-      <h2 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch with Us Today</h2>
+    <div class="w-full md:w-1/2 p-8 flex flex-col justify-center bg-gray-50">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch with Us</h2>
       <ul class="space-y-6">
         <!-- Contact Number -->
         <li class="flex items-center text-gray-800">
           <span class="material-icons text-blue-500 mr-4">phone</span>
-          <span class="text-lg">6265048875</span>
+          <span class="text-lg">+91 6265048875</span>
         </li>
 
         <!-- Email -->
@@ -50,11 +48,20 @@
         <!-- WhatsApp -->
         <li class="flex items-center text-gray-800">
           <span class="material-icons text-green-500 mr-4">chat</span>
-          <a href="https://wa.me/message/RIS5Q65JDMREH1" target="_blank" class="text-lg hover:underline">
+          <a href="https://wa.me/message/RIS5Q65JDMREH1" target="_blank" class="text-lg hover:text-green-600 hover:underline">
             Chat with us on WhatsApp
           </a>
         </li>
       </ul>
+
+      <!-- Button to go back to Home Page -->
+      <button 
+        class="bg-gradient-to-r from-blue-500 to-teal-400 text-white py-3 px-6 rounded-lg hover:shadow-lg transition-all mt-8"
+        
+        <a href="/index.html">
+          Go to Home Page
+        </a>
+      </button>
     </div>
   </div>
 </body>
